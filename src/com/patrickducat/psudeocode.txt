@@ -1,0 +1,18 @@
+install server
+	create local server folder in user's home folder
+	create buildtools folder in local server folder
+	download buildtools
+	run buildtools for latest (or specific) version of MC
+	move spigot jar from buildtools to local server folder
+	run spigot jar
+	open eula.txt and set eula to "true"
+	re-run spigot jar
+	create restart script
+	set restart script in spigot.yml
+
+setup server
+	move (user provided) server icon asset to local server folder
+	rename asset to "server-icon.png"
+	set server description in server.properties
+
+run server
